@@ -49,7 +49,7 @@ export default function Result() {
 
         {/* taglines of result according to score */}
         <div id="tagline" className="kbnormal">
-          {score > 2 ? "You did good!" : "You need to study more!"}
+          {score > 4 ? "You did good!" : "You need to study more!"}
         </div>
 
         {/* calculating the % of score */}
