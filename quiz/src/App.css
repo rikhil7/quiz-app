@@ -107,7 +107,7 @@
 #option:hover {
   cursor: pointer;
   box-shadow: 0 2px 10px 0 rgba(31, 38, 135, 0.37);
-  color: darkred;
+  /* color: darkred; */
 }
 #heading {
   font-size: 5vmax;
@@ -130,6 +130,11 @@
   }
   #option {
     width: 50vw;
+  }
+  #option:hover{
+    /* color: initial; */
+    box-shadow: none;
+    cursor: initial;
   }
 }
 #theme-btn {
