@@ -1,10 +1,10 @@
 // importing required components
 import React, { useContext, useState } from "react";
-import Home from "../Components/Home";
-import { AppContext } from "../Components/Context";
-import Quiz from "../Components/Quiz";
+import Home from "./Components/Home";
+import { AppContext } from "./Components/Context";
+import Quiz from "./Components/Quiz";
 import Questions from "./assets/questions.js";
-import Result from "../Components/Result.jsx";
+import Result from "./Components/Result.jsx";
 
 // App function for rendering onto the index file
 export default function App() {

@@ -1,6 +1,6 @@
 // importing required components
 import React, { useContext, useState } from "react";
-import { AppContext } from "../Components/Context";
+import { AppContext } from "./Context";
 
 // Home function for home page
 export default function Home() {
