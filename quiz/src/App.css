@@ -126,12 +126,13 @@
 @media (max-width: 700px) {
   #options {
     flex-direction: column;
+    gap: 3vmin;
     align-items: center;
   }
   #option {
     width: 50vw;
   }
-  #option:hover{
+  #option:hover {
     /* color: initial; */
     box-shadow: none;
     cursor: initial;
@@ -163,7 +164,7 @@
   transition: all 0.3s;
   cursor: pointer;
 }
-#name{
+#name {
   position: absolute;
   top: 5vh;
   left: 3vw;
